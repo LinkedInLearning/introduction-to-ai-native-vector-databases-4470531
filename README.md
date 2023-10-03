@@ -22,9 +22,20 @@ To resolve this issue:
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
+	- [Weaviate Python Client](https://pypi.org/project/weaviate-client/)
+    - [Anaconda](https://www.anaconda.com/)
+    - [Jupyter](https://jupyter.org/)
+    - [Docker](https://www.docker.com/)
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+3. To setup the above tools please refer to the instructions below.
+
+- [Anaconda](https://www.anaconda.com/) can be downloaded and installed using this [link](https://www.anaconda.com/download). We will only be using the base environment. This will give you packages like numpy, matplotlib and jupyter which we will be using as the main coding environment for this course.
+
+- [Jupyter](https://jupyter.org/) will come pre-installed in the base environment of Anaconda and does not to be seperately installed. You can start up jupyter by going into a terminal and typing `jupyter notebook`. This will launch jupyter notebooks in your browser, if it doesn't automatically launch copy and paste the URL provided in the terminal into your browser.
+
+- [Weaviate Python Client](https://pypi.org/project/weaviate-client/) can be installed after you have docker by using the command `python -m pip install weaviate-client`. Following this you should be able to run the command `import weaviate` in a newly launched jupyter notebook.
+
+- [Docker](https://www.docker.com/) will be used to create containers in which our vector database(Weaviate) will run. We recommend that you setup [Docker Desktop](https://www.docker.com/get-started/). Once Docker Desktop is setup, for certain videos and challenges you will be able to spin up docker containers using the provided `docker-compose.yml` files by opening a terminal where this file is located and typing `docker compose up`. Once finished with using the container you can bring it down simply by going into the same terminal and pressing `Ctrl + C`
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
