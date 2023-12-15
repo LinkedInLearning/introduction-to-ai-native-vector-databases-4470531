@@ -1,7 +1,11 @@
 # Introduction to AI-Native Vector Databases
 This is the repository for the LinkedIn Learning course `Introduction to AI-Native Vector Databases`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
+![course-name-alt-text][lil-thumbnail-url] 
+
+The primary purpose of vector databases is to provide fast and accurate similarity search or nearest neighbor search capabilities. The integration of AI techniques in vector databases enhances their capabilities, improves search accuracy, optimizes performance, and enables more intelligent and efficient management of high-dimensional data. In this course, Zain Hasan introduces this foundational technology—which is already being used in industries like ecommerce, social media, and more. Zain covers everything from foundational concepts around AI-first vector databases to hands-on coding labs for question answering using LLMs.
+
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -38,8 +42,14 @@ To resolve this issue:
 - [Docker](https://www.docker.com/) will be used to create containers in which our vector database(Weaviate) will run. We recommend that you setup [Docker Desktop](https://www.docker.com/get-started/). Once Docker Desktop is setup, for certain videos and challenges you will be able to spin up docker containers using the provided `docker-compose.yml` files by opening a terminal where this file is located and typing `docker compose up`. Once finished with using the container you can bring it down simply by going into the same terminal and pressing `Ctrl + C`
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+**Zain Hasan**
+
+_Data Scientist, Lecturer_   
+
+
+
+[lil-course-url]: https://www.linkedin.com/learning/introduction-to-ai-native-vector-databases
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQFc3phQ64lAsA/learning-public-crop_675_1200/0/1702341179674?e=2147483647&v=beta&t=73HFdwWEvt0yxV3hHg8Rsx7MlXIXdkMde20UHxs6Qcg
 
